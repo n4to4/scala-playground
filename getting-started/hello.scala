@@ -1,5 +1,5 @@
 //> using scala 3
-//> using dep "com.lihaoyi::os-lib:0.10.7"
+//> using toolkit default
 
 @main
 def countFiles(): Unit =
