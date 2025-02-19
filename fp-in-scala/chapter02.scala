@@ -4,7 +4,7 @@ def factorial(n: Int): Int =
 
 def factorial2(n: Int): Int =
   def go(m: Int, acc: Int): Int =
-    if m <= n then acc else go(m + 1, acc * m)
+    if m <= 1 then acc else go(m - 1, acc * m)
   go(n, 1)
 
 @main
