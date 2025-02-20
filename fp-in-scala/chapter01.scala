@@ -15,7 +15,7 @@ object Chapter01:
     val price: Double = 2.0
 
   @main
-  def main =
+  def main01 =
     val cc = CreditCard()
     val cafe = Cafe()
     val cup = cafe.buyCoffee(cc)
